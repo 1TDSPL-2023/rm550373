@@ -64,7 +64,7 @@
         </nav>
 
 
-        <form action="" method="GET" onsubmit="return false">
+        <form action="in" method="POST" onsubmit="return true">
             <fieldset>
                 <legend>Contato</legend>
                 <div>
@@ -76,6 +76,13 @@
                     <label for="idNome">Nome</label>
                     <input type="text" name="txtNome" id="idNome" required placeholder="Nome">
                 </div>
+
+                <div>
+                    <label for="idGrava">Guardar Dados</label>
+                    <input type="checkbox" name="txtGrava" id="idGrava" >
+                </div>
+
+
 
                 <div>
                     <input type="submit" value="Enviar">
