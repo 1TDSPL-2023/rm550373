@@ -1,0 +1,24 @@
+/* 
+breakpoint de 635px */
+
+@media(max-width: 635px){
+    .cabecalho{
+        flex-direction: column;
+    }
+
+.cabecalho nav{
+    flex-wrap: nowrap; 
+    height: auto;  
+}
+
+.cabecalho a{
+    padding: 5vh 0;
+    font-size: 2rem;
+}
+}
+
+
+
+
+/* 
+breakpoint de 635px */
