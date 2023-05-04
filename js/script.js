@@ -41,41 +41,41 @@
 // });
 
 
-let fruta = "Melão";
-console.log(fruta);
+// let fruta = "Melão";
+// console.log(fruta);
 
 //ARRAY Sao collections
-let frutas = ["Uva","pera","Melancia"];
-console.log(frutas[0]);
-console.log(frutas[1]);
-console.log(frutas[2]);
-console.log("Tamano do Array: " + frutas.length);
+// let frutas = ["Uva","pera","Melancia"];
+// console.log(frutas[0]);
+// console.log(frutas[1]);
+// console.log(frutas[2]);
+// console.log("Tamano do Array: " + frutas.length);
 
 
 //adiccionando um novo elemento no final do array
 ///utilizando o metodo push
-frutas.push("Banana");
-frutas.push("Laranja");
-// console.log(frutas)
-console.table(frutas);
+// frutas.push("Banana");
+// frutas.push("Laranja");
+// // console.log(frutas)
+// console.table(frutas);
 
 //removendo um item do final do array com o metodo pop();
 
-frutas.pop();
-console.log(frutas);
+// frutas.pop();
+// console.log(frutas);
 
 //removendo um item do inicio da array usando shift
 
-frutas.shift();
-console.table(frutas);
+// frutas.shift();
+// console.table(frutas);
 
 
 //Adicionando elemento no inicio da array
 //Utilizando o metodo unshift(item);
-frutas.unshift("Maracujá");
-frutas.unshift("Kiwi");
+// frutas.unshift("Maracujá");
+// frutas.unshift("Kiwi");
 
-console.table(frutas)
+// console.table(frutas)
 
 
 //realizar uma busca de um item no aarray uttilizando o metodo indexOf
@@ -85,6 +85,18 @@ console.table(frutas)
 
  //Removendo item atraves do indice do array com o metodo splice(indicie , ) 
 
- let indice = frutas.indexOf("pera");
- frutas.splice(indice, 1)
- console.table(frutas);
+//  let indice = frutas.indexOf("pera");
+//  frutas.splice(indice, 1)
+//  console.table(frutas);
+
+
+//Iterando Arrays
+
+// let frutas = ["uva","laranja","banana","maçã","kiwi","abacate"];
+
+// console.log(`Minhas Frutas: ${frutas}`);
+
+// frutas.forEach((fruta)=>{
+//     console.log(fruta);
+// });
+
