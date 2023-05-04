@@ -100,3 +100,30 @@
 //     console.log(fruta);
 // });
 
+// let nr1 = [1,2,3,4,5];
+// let nr2 = [6,7,8,9,10];
+
+
+// //Ao inves de concatenar os arrays, vamos utilizar o operador SPREAD(...) para melhorar.
+// //Concatenação de Arrays
+// // let nr3 = [nr1 , nr2];
+// let nr3 = [...nr1 , ...nr2];
+
+
+
+// //Imprimindo o novo array concatenado
+// console.log("Novo Array:  " + nr3);
+// //Aplicando o forEach no novo Array
+
+// nr3.forEach((nr)=>{
+//     console.log("Itens do novo Array: " + nr);
+// });
+
+//converter HTMLelemnts em array
+const aElements = document.getElementsByTagName("a");
+const aElementsArray = [...aElements];
+console.log(aElementsArray);
+//imprimindo aatributos dos elementos recuperados...
+aElementsArray.forEach((a)=>{
+    console.log(a.innerHTML);
+});
