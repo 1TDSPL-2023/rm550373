@@ -8,14 +8,7 @@
     <link rel="stylesheet" href="./css/estilo.css">
 
     <script src="./js/script.js" defer></script>
-    <script>
-
-        //atrelando um evento click à um elemento no HTML.
-        // const h2Element = document.getElementById("titulo");
-        // console.log(h2Element.textContent);;
-
-
-    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -67,17 +60,18 @@
     <!--RODAPÉ-->
     <footer class="rodape">
         <h2>Fale Conosco.</h2>
-        <form action="in" method="POST" onsubmit="return true">
+        <form action="index.html" method="GET" onsubmit="return false">
             <fieldset>
-                <legend>Contato</legend>
+                <legend>Entrar</legend>
                 <div>
                     <label for="idEmail">Email</label>
-                    <input type="email" name="txtEmail" id="idEmail" required placeholder="Email">
+                    <input type="email" name="txtEmail" id="idEmail" placeholder="Email">
                 </div>
 
                 <div>
-                    <label for="idNome">Nome</label>
-                    <input type="text" name="txtNome" id="idNome" required placeholder="Nome">
+                    <label for="idSenha">Senha</label>
+                    <input type="password" name="txtSenha" id="idSenha" placeholder="Senha">
+                    <i class="fa fa-eye" aria-hidden="true"></i>
                 </div>
 
                 <div>
@@ -86,7 +80,7 @@
                 </div>
 
                 <div>
-                    <input type="submit" value="Enviar">
+                    <button type="submit" id="btnSubmit">Entrar</button>
                 </div>
 
             </fieldset>
