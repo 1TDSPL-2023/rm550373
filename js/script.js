@@ -3,7 +3,7 @@
 //CONST >
 //1 REGRA: Na declaração você é obrigado a inicializar a constante
 //2 REGRA: Não se pode alterar o conteudo de uma const. durante o fluxo do programa
-// const PI = 3.14;
+// const PI = 3.14;;
 
 
 //VAR E LET
