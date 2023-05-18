@@ -4,31 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/login.js" defer></script>
+    <title>Entrar</title>
 </head>
 <body>
 
-    <form action="in" method="POST" onsubmit="return true">
-        <fieldset>
-            <legend>Contato</legend>
-            <div>
-                <label for="idEmail">Email</label>
-                <input type="email" name="txtEmail" id="idEmail" required placeholder="Email">
-            </div>
+    <div id="msg"></div>
 
-            <div>
-                <label for="idNome">Nome</label>
-                <input type="text" name="txtNome" id="idNome" required placeholder="Nome">
-            </div>
-
-            <div>
-                <p><a href="#">Para se registrar clique aqui!</a></p>
-            <div>
-                <input type="submit" value="Enviar">
-            </div>
-
-        </fieldset>
-    </form>
+    <div>
+        <form action="index.html" method="get" onsubmit="return false">
+            <fieldset>
+                <legend>Entrar</legend>
+                <div>
+                    <label for="idEmail">Email</label>
+                    <input type="email" name="txtEmail" id="idEmail" placeholder="Email">
+                </div>
+                <div>
+                    <label for="idPass">Senha</label>
+                    <input type="password" name="txtPass" id="idPass" placeholder="Senha">
+                </div>
+                <div>
+                    <p><a href="#">Para se registrar clique aqui!</a></p>
+                </div>
+                <div>
+                    <button type="submit" id="btnSubmit">Entrar</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
 
 </body>
 </html>
