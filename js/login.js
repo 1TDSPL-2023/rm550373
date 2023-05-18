@@ -14,10 +14,14 @@ function resultado(visor) {
 
     let novoVisorSemSimbolos = meuVisor.value.split("+");
  
+
     let total = 0;
- 
     novoVisorSemSimbolos.forEach((nr)=>{
         total +=  parseInt(nr);
     });
+
+
+
+
     console.log(total);
 }
